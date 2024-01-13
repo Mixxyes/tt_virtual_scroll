@@ -22,7 +22,9 @@ export const PostItem: React.FC<PostItemProps> = ({ post }) => {
       }}
       className={'post_wrapper'}>
       <div className={'post_id'}>#{id}</div>
-      <div className={'post_title'}>{title}</div>
+      <div className={'post_title'}>
+        {title.length > 50 ? title.substring(0, 50) + '...' : title}
+      </div>
       <div className="post_body">
         {body.length > 160 ? (
           <>

@@ -4,7 +4,7 @@ This is a test task from hh.ru
 
 ## Links
 
-- Live Site URL: [Infinite Virtual Scroll](https://tt_virtual_scroll.vercel.app/)
+- Live Site URL: [Infinite Virtual Scroll](https://tt-virtual-scroll.vercel.app/)
 
 ## Built with
 
